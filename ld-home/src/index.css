@@ -1,0 +1,329 @@
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+/*------ navbar ------*/
+.navbar {
+    padding: 10px 45px !important;
+    /* background-color: #606c87; */
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.site-logo img{
+    width: 45px;
+}
+.contact-num a{
+    color: #000;
+}
+.contact-num a:hover{
+    color: #606c87;
+    text-decoration: none;
+}
+.contact-num {
+    float: inline-end;
+}
+.phone-link {
+    text-decoration: none;
+}
+
+/*-------------------- end navbar css ------------------------------*/
+
+.form-right {
+    /* background: url(../images/side-img.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.step-one{
+    /* margin-top: 45px; */
+}
+.step-one h1{
+font-size: 45px;
+}
+.step-one_para{
+    font-size: 24px;
+}
+.form-field{
+    margin-top: 45px;
+    display: grid;
+    position: relative;
+}
+.form-field .form-control {
+    height: 50px;
+    border: 1px solid #606c87;
+    border-radius: 5px;
+    /* width:375px ; */
+}
+.form-field label{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.form-btn{
+margin-top: 10%;
+border-top: 1px solid #606c8761;
+padding-top: 40px;
+}
+.form-btn button {
+    padding: 8px 25px;
+    font-size: 18px;
+    color: #fff;
+    background: #606c87;
+    border: 1px solid #606c87;
+    border-radius: 5px;
+}
+button.action.next {
+    float: inline-end;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #606c87 !important;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgb(38 51 82 / 11%) !important;
+}
+.form-field input::placeholder {
+    color: #39434ec0;
+    font-size: 16px;
+}
+.step-one {
+    margin-top: 45px;
+    padding: 15px 80px 10px 45px;
+}
+.step-form{
+    padding: 0px 80px 10px 45px;
+}
+.list-group {
+    /* width: 375px; */
+    border-top: 0px;
+    margin-top: 0px;
+}
+.back-btn i{
+    font-size: 16px;
+    padding-right: 5px;
+}
+.back-btn{
+    font-size: 18px;
+    color: #000;
+}
+.back-btn:hover{
+    font-size: 18px;
+    color: #fff;
+}
+.form-btn_footer button {
+    padding: 8px 25px;
+    font-size: 18px;
+    color: #fff;
+    background: #606c87;
+    border: 1px solid #606c87;
+    border-radius: 5px;
+}
+.form-btn_footer {
+    margin-top: 90px;
+    border-top: 1px solid #606c8761;
+    padding-top: 40px;
+}
+button:focus {
+    outline: 0px dotted !important;
+    outline: 0px auto -webkit-focus-ring-color !important;
+}
+input.form-control.living-area {
+    padding: 10px 35px 10px 12px;
+}
+.meter-text {
+    position: absolute;
+    right: 35px;
+    top: 50px;
+}
+
+.radio-btn {
+    float: left;
+    margin: 0 15px 0 0;
+    width: 50px;
+    height: 40px;
+    position: relative;
+    border: 1px solid #606c87;
+    border-radius: 5px;
+  }
+  
+  .radio-btn label,
+  .radio-btn input {
+    display: block;
+    position: absolute;
+    /* top: -1px; */
+    left: -1px;
+    right: -1px;
+    /* bottom: 0; */
+  }
+  
+  .radio-btn input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+  }
+  
+  .radio-btn input[type="radio"]:checked + label {
+    background: #606c87;
+    border-radius: 0px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+}
+  
+  .radio-btn label {
+    cursor: pointer;
+    z-index: 90;
+    /* line-height: 1.8em; */
+  }
+  .parking-sublabel {
+    font-size: 16px !important;
+}
+
+button.action.submit {
+    float: inline-end;
+    color: #fff;
+    background-color: #1e7e34;
+    border-color: #1c7430;
+}
+.progress-bar {
+    background-color: #232e4a !important;
+}
+/* .progress-bar {
+    width: 0% !important;
+} */
+ 
+.progress {
+    height: 14px !important;
+    font-size: 12px !important;
+}
+.check-outside {
+    display: flex;
+}
+.form-check {
+    margin-right: 20px;
+}
+label.form-check-label {
+    font-size: 18px;
+    margin-left: 8px;
+}
+.form-check-input {
+    margin-top: 6px !important;
+    width: 16px;
+    height: 16px;
+}
+@media (max-width:768px) {
+    .step-one h1 {
+        font-size: 26px;
+    }
+    .form-right {
+        margin-top: 40px !important;
+    }
+    .step-one {
+        padding: 15px 45px 10px 45px;
+    }
+    .step-form {
+        padding: 0px 45px 10px 45px;
+    }
+    .meter-text {
+        top: 75px;
+    }
+}
+.meter-text {
+    position: absolute;
+    right: 35px;
+    top: 75px;
+}
+.form-right {
+    /* background: url(../images/side-img.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sale-heading {
+    text-align: center;
+}
+
+.end-form_box {
+    text-align: center;
+    box-shadow: rgb(140 197 255 / 20%) 0px 8px 20px;
+    padding: 45px 20px;
+    margin: 45px;
+}
+
+.sale-heading h4 {
+    text-align: center;
+    margin: 25px 0px 40px;
+}
+
+.month-heading h4 {
+    text-align: center;
+    margin: 45px 0px 40px;
+}
+
+p.mid-value {
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.sale-line {
+    background: url(images/Red\ Dots.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+    height: 16px;
+}
+
+.month-line {
+    background: url(images/Green\ Dots.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+    height: 16px;
+}
+
+.sale-value {
+    width: 100%;
+    margin: auto;
+}
+
+.sale-btm_text p {
+    font-size: 14px;
+    color: #ababab;
+}
+
+@media (max-width:580px) {
+    .sale-line {
+        height: 10px;
+    }
+
+    .month-line {
+        height: 10px;
+    }
+
+    p.mid-value {
+        font-size: 22px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+}
+#show_error {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: red;
+}
