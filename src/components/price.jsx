@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Price({ result }) {
-  if (!result ) {
+  if (!result) {
     return <div>No result available</div>;
   }
 
@@ -9,6 +9,12 @@ export default function Price({ result }) {
     estimated_sale_value = 'N/A',
     estimated_monthly_value = 'N/A'
   } = result;
+
+
+  const handleReload = (e) => {
+    e.preventDefault();
+    window.location.reload();
+  };
 
   return (
     <>
@@ -36,6 +42,9 @@ export default function Price({ result }) {
                   </div>
                 </div>
               </div>
+              <a href="#" className='btn btn-primary mt-4' onClick={handleReload}>
+                Go to Home
+              </a>
             </div>
           </div>
         </div>
