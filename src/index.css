@@ -355,9 +355,8 @@ label.form-check-label {
     line-height: 1.5;
 }
 .form-value_box {
-    margin: auto;
+    margin: auto !important;
 }
-
 
 
 
