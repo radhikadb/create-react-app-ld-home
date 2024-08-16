@@ -7,7 +7,11 @@ export default function Price({ result }) {
 
   const {
     estimated_sale_value = 'N/A',
-    estimated_monthly_value = 'N/A'
+    estimated_monthly_value = 'N/A',
+    sale_value_plus_7_percent = 'N/A',
+    sale_value_minus_7_percent = 'N/A',
+    monthly_value_plus_7_percent = 'N/A',
+    monthly_value_minus_7_percent = 'N/A',
   } = result;
 
 
@@ -28,13 +32,13 @@ export default function Price({ result }) {
               <div className="sale-value">
                 <div className="row">
                   <div class="col-md-4 col-sm-4 col-4">
-                    <p class="price-value">€625,000</p>
+                    <p class="price-value">{sale_value_plus_7_percent}</p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-4">
                     <p className="mid-value">{estimated_sale_value}</p>
                   </div>
                   <div class="col-md-4 col-sm-4 col-4">
-                    <p class="price-value">€625,000</p>
+                    <p class="price-value">{sale_value_minus_7_percent}</p>
                   </div>
                 </div>
                 <div class="sale-line">
@@ -57,13 +61,13 @@ export default function Price({ result }) {
               <div className="sale-value">
                 <div className="row">
                   <div class="col-md-4 col-sm-4 col-4">
-                    <p class="price-value">€625,000</p>
+                    <p class="price-value">{monthly_value_plus_7_percent}</p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-4">
                     <p className="mid-value">{estimated_monthly_value}</p>
                   </div>
                   <div class="col-md-4 col-sm-4 col-4">
-                    <p class="price-value">€625,000</p>
+                    <p class="price-value">{monthly_value_minus_7_percent}</p>
                   </div>
                 </div>
                 <div class="month-line">
@@ -71,6 +75,7 @@ export default function Price({ result }) {
                 <div class="row sale-btm_text">
                   <div class="col-md-4 col-sm-4 col-4">
                     <p>Low</p>
+                    
                   </div>
                   <div class="col-md-4 col-sm-4 col-4">
                     <p>Confident Level 4/5</p>
