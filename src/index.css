@@ -327,3 +327,42 @@ p.mid-value {
     text-align: center;
     color: red;
 }
+.meter-text {
+    position: absolute;
+    right: 40px;
+    top: 45px;
+}
+.form-field label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+label.form-check-label {
+    font-size: 16px;
+    margin-left: 8px;
+}
+.radio-btn {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 46px;
+    height: 42px;
+    position: relative;
+    border: 1px solid #606C87;
+    border-radius: 5px;
+}
+.form-select {
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.form-value_box {
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
