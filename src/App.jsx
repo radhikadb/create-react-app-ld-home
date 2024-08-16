@@ -61,7 +61,7 @@ function App() {
       if (current === 0) {
         const address = methods.getValues("streetNumber"); // or other address field
         console.log('address: ', address);
-        updateMapUrl(address);
+        // updateMapUrl(address);
       }
       setCurrent(current + 1);
     }
