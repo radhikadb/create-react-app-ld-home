@@ -357,8 +357,21 @@ label.form-check-label {
 .form-value_box {
     margin: auto !important;
 }
-
-
+.end-form_box {
+    text-align: center;
+    box-shadow: #8cc5ff33 0 8px 20px;
+    padding: 45px 20px;
+    margin: 45px;
+    width: 660px;
+}
+a.btn.btn-primary.mt-4.goto-btn {
+    background: aliceblue;
+    background: #283655;
+    padding: 10px 25px;
+    border: 1px #283655;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 16px;
+}
 
 
 
