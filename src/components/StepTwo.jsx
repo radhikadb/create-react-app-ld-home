@@ -51,15 +51,15 @@ export default function StepTwo() {
               <label htmlFor="livingArea">
                 Living area (excluding basement, attic, terrace...):
               </label>
-              <span className="meter-text">
-                m<sup>2</sup>{" "}
-              </span>
               <input
                 type="number"
                 id="livingArea"
                 className={`form-control living-area ${errors.livingArea ? 'is-invalid' : ''}`}
                 {...register('livingArea', { required: 'Living area is required.' })}
               />
+              <span className="meter-text">
+                m<sup>2</sup>{" "}
+              </span>
               {errors.livingArea && <div className="invalid-feedback">{errors.livingArea.message}</div>}
             </div>
           </div>

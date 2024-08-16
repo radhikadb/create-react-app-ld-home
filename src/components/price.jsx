@@ -85,7 +85,7 @@ export default function Price({ result }) {
                   </div>
                 </div>
               </div>
-              <a href="#" className='btn btn-primary mt-4' onClick={handleReload}>
+              <a href="#" className='goto-btn btn btn-primary mt-4' onClick={handleReload}>
                 Go to Home
               </a>
             </div>

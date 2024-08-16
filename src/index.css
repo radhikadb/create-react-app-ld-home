@@ -424,6 +424,12 @@ a.btn.btn-primary.mt-4.goto-btn {
     font-size: 16px;
 }
 
+.form-field .form-control {
+    height: 50px;
+    border: 1px solid #606C87;
+    border-radius: 5px;
+    font-size: 16px;
+}
 @media (max-width:600px ) {
     .end-form_box {
         text-align: center;
