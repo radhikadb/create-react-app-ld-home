@@ -61,7 +61,7 @@ function App() {
       if (current === 0) {
         const address = methods.getValues("streetNumber"); // or other address field
         console.log('address: ', address);
-        // updateMapUrl(address);
+        updateMapUrl(address);
       }
       setCurrent(current + 1);
     }
@@ -129,11 +129,12 @@ function App() {
   };
 
   const updateMapUrl = (address) => {
-    const apiKey = 'YOUR_GOOGLE_MAPS_API_KEY'; // Replace with your Google Maps API key
+    const apiKey = ''; // Replace with your Google Maps API key
     const encodedAddress = encodeURIComponent(address);
     const newUrl = `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=${encodedAddress}`;
     setMapUrl(newUrl);
   };
+  
 
   return (
     <>
@@ -153,7 +154,7 @@ function App() {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-md-6 col-lg-7">
+            <div className="col-md-6 col-lg-7 form-value_box">
               {!submitted && (
                 <>
                   <div className="row">
