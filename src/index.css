@@ -279,7 +279,7 @@ p.mid-value {
 }
 
 .sale-line {
-    background: url(images/Red\ Dots.png);
+    background: url(../../Red.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
@@ -288,7 +288,7 @@ p.mid-value {
 }
 
 .month-line {
-    background: url(images/Green\ Dots.png);
+    background: url(../../Green.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;

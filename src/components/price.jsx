@@ -27,8 +27,27 @@ export default function Price({ result }) {
               </div>
               <div className="sale-value">
                 <div className="row">
-                  <div className="col-md-12 col-sm-12 col-12">
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p class="price-value">€625,000</p>
+                  </div>
+                  <div className="col-md-4 col-sm-4 col-4">
                     <p className="mid-value">{estimated_sale_value}</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p class="price-value">€625,000</p>
+                  </div>
+                </div>
+                <div class="sale-line">
+                </div>
+                <div class="row sale-btm_text">
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p>Low</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p>Confident Level 4/5</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p>High</p>
                   </div>
                 </div>
               </div>
@@ -37,8 +56,27 @@ export default function Price({ result }) {
               </div>
               <div className="sale-value">
                 <div className="row">
-                  <div className="col-md-12 col-sm-12 col-12">
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p class="price-value">€625,000</p>
+                  </div>
+                  <div className="col-md-4 col-sm-4 col-4">
                     <p className="mid-value">{estimated_monthly_value}</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p class="price-value">€625,000</p>
+                  </div>
+                </div>
+                <div class="month-line">
+                </div>
+                <div class="row sale-btm_text">
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p>Low</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p>Confident Level 4/5</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-4">
+                    <p>High</p>
                   </div>
                 </div>
               </div>
