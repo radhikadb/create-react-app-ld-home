@@ -403,9 +403,9 @@ label.form-check-label {
     line-height: 1.5;
 }
 
-.form-value_box {
+/* .form-value_box {
     margin: auto !important;
-}
+} */
 
 .end-form_box {
     text-align: center;
